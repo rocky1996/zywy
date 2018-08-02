@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>zywy</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.acat.controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComIntroServlet</servlet-name>
+    <servlet-class>com.acat.controller.ComIntroServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.acat.controller.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LocalDynServlet</servlet-name>
+    <servlet-class>com.acat.controller.LocalDynServlet</servlet-class>
+  </servlet>
+  <filter>
+    <filter-name>AllCharacterEncodingFilter</filter-name>
+    <filter-class>com.acat.filter.AllCharacterEncodingFilter</filter-class>
+  </filter>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrgStuServlet</servlet-name>
+    <servlet-class>com.acat.controller.OrgStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComCulServlet</servlet-name>
+    <servlet-class>com.acat.controller.ComCulServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeamConServlet</servlet-name>
+    <servlet-class>com.acat.controller.TeamConServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BigThingServlet</servlet-name>
+    <servlet-class>com.acat.controller.BigThingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComNewServlet</servlet-name>
+    <servlet-class>com.acat.controller.ComNewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MedNewServlet</servlet-name>
+    <servlet-class>com.acat.controller.MedNewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HouseKeepServlet</servlet-name>
+    <servlet-class>com.acat.controller.HouseKeepServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CarRepServlet</servlet-name>
+    <servlet-class>com.acat.controller.CarRepServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConRepServlet</servlet-name>
+    <servlet-class>com.acat.controller.ConRepServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OwnHomeServlet</servlet-name>
+    <servlet-class>com.acat.controller.OwnHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JoinZyServlet</servlet-name>
+    <servlet-class>com.acat.controller.JoinZyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComCallServlet</servlet-name>
+    <servlet-class>com.acat.controller.ComCallServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>ComCallServlet</servlet-name>
+    <url-pattern>/servlet/ComCallServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JoinZyServlet</servlet-name>
+    <url-pattern>/servlet/JoinZyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConRepServlet</servlet-name>
+    <url-pattern>/servlet/ConRepServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarRepServlet</servlet-name>
+    <url-pattern>/servlet/CarRepServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HouseKeepServlet</servlet-name>
+    <url-pattern>/servlet/HouseKeepServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MedNewServlet</servlet-name>
+    <url-pattern>/servlet/MedNewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LocalDynServlet</servlet-name>
+    <url-pattern>/servlet/LocalDynServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComNewServlet</servlet-name>
+    <url-pattern>/servlet/ComNewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BigThingServlet</servlet-name>
+    <url-pattern>/servlet/BigThingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeamConServlet</servlet-name>
+    <url-pattern>/servlet/TeamConServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComCulServlet</servlet-name>
+    <url-pattern>/servlet/ComCulServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrgStuServlet</servlet-name>
+    <url-pattern>/servlet/OrgStuServlet</url-pattern>
+  </servlet-mapping>
+  <filter-mapping>
+    <filter-name>AllCharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/servlet/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComIntroServlet</servlet-name>
+    <url-pattern>/servlet/ComIntroServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,263 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 宋体;
+}
+.menu li{
+	position: relative;
+	z-index: 999;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 88px;
+}
+.head_count{
+	width: 960px;
+	height: 88px;
+	margin:auto;
+}
+.head_count_logo{
+	width: 624px;
+	height: 88px;
+	float: left;
+}
+.head_count_right{
+	width: 336px;
+	height: 88px;
+	float: left;
+}
+.head_count_right_top{
+	width: 336px;
+	height: 30px;
+}
+.head_count_right_top table{
+	width: 336px;
+	height: 30px;
+	margin-left: 210px; 
+	margin-top: 9px;
+}
+.head_count_right_top a{
+	font-size: 9pt;
+	color: rgb(33, 70, 122);
+}
+.head_count_right_bottom{
+	width: 336px;
+	height: 25px;
+	margin-left: 77px;
+	margin-bottom: 24px;
+}
+.head_count_right_bottom form{
+	height: 25px;
+}
+.head_count_right_bottom table{
+	width: 336px;
+	height: 25px;
+}
+.menu{
+	width: 100%;
+	height: 37px;
+	background:url(../images/bg.png) repeat;
+}
+.menu_count{
+	width: 960px;
+	height: 37px;
+	margin: auto;
+}
+.menu_count_ul{
+	width: 960px;
+	height: 37px;
+	margin-left: 30px;
+}
+.menu_count_ul li{
+	width: 60px;
+	height: 37px;
+	line-height: 37px;
+	list-style: none;
+	float: left; 
+}
+.menu_count_secondul1{
+	display:none;
+	width: 52px;
+	height: 175px;
+	list-style: none;
+	line-height: 37px;
+	background:url(../images/bg.png) repeat;
+	margin-left: -22px;
+}
+.menu_count_secondul1 li{
+	width: 52px;
+	height: 28px;
+	list-style: none;
+	line-height: 28px;
+	margin-left: -19px;
+	text-align: center;
+	font-weight: bold;
+}
+.menu_count_secondul2{
+	display:none;
+	width: 52px;
+	height: 106px;
+	list-style: none;
+	line-height: 37px;
+	background:url(../images/bg.png) repeat;
+	margin-left: -22px;
+}
+.menu_count_secondul2 li{
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 29px;
+	margin-left: -19px;
+}
+.menu_count_secondul3{
+	display:none;
+	width: 52px;
+	height: 106px;
+	list-style: none;
+	line-height: 37px;
+	background:url(../images/bg.png) repeat;
+	margin-left: -22px;
+}
+.menu_count_secondul3 li{
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 29px;
+	margin-left: -19px;
+}
+.menu_count_secondul4{
+	display:none;
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 37px;
+	background:url(../images/bg.png) repeat;
+	margin-left: -22px;
+}
+.menu_count_secondul4 li{
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 29px;
+	margin-left: -19px;
+}
+.menu_count_secondul5{
+	display:none;
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 37px;
+	background:url(../images/bg.png) repeat;
+	margin-left: -22px;
+}
+.menu_count_secondul5 li{
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 29px;
+	margin-left: -19px;
+}
+.menu_count_secondul6{
+	display:none;
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 37px;
+	background:url(../images/bg.png) repeat;
+	margin-left: -22px;
+}
+.menu_count_secondul6 li{
+	width: 52px;
+	height: 29px;
+	list-style: none;
+	line-height: 29px;
+	margin-left: -19px;
+}
+.menu_count a{
+	color: white;
+	font-size: 9pt;
+}
+.main{
+	width: 100%;
+	height: 600px;
+}
+.main_count{
+	width: 960px;
+	height: 600px;
+	margin: auto;
+}
+.main_count_left{
+	width: 162px;
+	height: 600px;
+	float: left;
+}
+.main_count_left_a{
+	width: 162px;
+	height: 208px;
+	background:url(../images/bg.png) repeat;
+}
+.main_count_left_a ul li{
+	list-style: none;
+	margin-top: 5px;
+}
+.main_count_left_a a{
+	font-size: 10pt;
+	color: white;
+}
+.main_count_left_a a:hover{
+	background-color: white;
+	color: rgb(33, 70, 122);
+}
+.main_count_left_b{
+	width: 162px;
+	height: 168px;
+	margin-top: 15px;
+}
+.main_count_left_c{
+	width: 162px;
+	height: 168px;
+	margin-top: 15px;
+}
+.main_count_right{
+	width: 780px;
+	height: 600px;
+	float: left;
+	margin-left: 15px;
+}
+.main_count_right_a{
+	width: 780px;
+	height: 240px;
+	border: 1px solid black;
+}
+.main_count_right_b{
+	width: 380px;
+	height: 340px;
+	margin-top: 18px;
+	float: left;
+	border: 1px solid black;
+}
+.main_count_right_c{
+	width: 380px;
+	height: 340px;
+	margin-top: 17px;
+	float: left;
+	margin-left: 15px;
+	border: 1px solid black;
+}
+.bottom{
+	width: 100%;
+	height: 52px;
+}
+.bottom_count{
+	width: 960px;
+	height: 52px;
+	margin: auto;
+}
+.bottom_count span{
+	font-size: 9pt;
+	color: rgb(128, 128, 128);
+	margin-left: 25px;
+}
